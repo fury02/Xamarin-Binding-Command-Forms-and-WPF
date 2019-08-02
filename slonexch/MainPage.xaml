@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            
+             xmlns:datacontext="clr-namespace:slonexch.ViewModel"
+             
+             mc:Ignorable="d"         
+             x:Class="slonexch.MainPage">
+
+    <ContentPage.BindingContext>
+        <datacontext:ButtonViewModel></datacontext:ButtonViewModel>
+    </ContentPage.BindingContext>
+
+    <Grid BackgroundColor="White">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"></ColumnDefinition>
+            <ColumnDefinition Width="145"></ColumnDefinition>
+            <ColumnDefinition Width="11"></ColumnDefinition>
+            <ColumnDefinition Width="145"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="5"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="1" Grid.Column="1" Command="{Binding Command_XamarinForms}" Text="XamarinForms" CornerRadius="10" BackgroundColor="Green"></Button>
+
+        <Button Grid.Row="1" Grid.Column="3" Command="{Binding Command_WPFMVVM}" Text="WPFMVVM" CornerRadius="10" BackgroundColor="Green"></Button>
+
+        <Label  Grid.Column ="1" Grid.Row="2" Grid.ColumnSpan="3" Text="{Binding InfoCommand, Mode=TwoWay}" BackgroundColor="White" TextColor="Green" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+
+    </Grid>
+    
+</ContentPage>

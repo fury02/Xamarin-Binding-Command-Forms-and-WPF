@@ -1,0 +1,14 @@
+T:\slonexchan\slonexch\slonexch\bin\Debug\netstandard2.0\slonexch.deps.json
+T:\slonexchan\slonexch\slonexch\bin\Debug\netstandard2.0\slonexch.dll
+T:\slonexchan\slonexch\slonexch\bin\Debug\netstandard2.0\ref\slonexch.dll
+T:\slonexchan\slonexch\slonexch\bin\Debug\netstandard2.0\slonexch.pdb
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.csprojAssemblyReference.cache
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\App.xaml.g.cs
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.csproj.CoreCompileInputs.cache
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.AssemblyInfoInputs.cache
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.AssemblyInfo.cs
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\XamlC.stamp
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.dll
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\ref\slonexch.dll
+T:\slonexchan\slonexch\slonexch\obj\Debug\netstandard2.0\slonexch.pdb
